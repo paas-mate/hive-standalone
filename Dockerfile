@@ -7,7 +7,6 @@ RUN dnf install -yq iputils net-tools iproute telnet bind-utils && \
     dnf install -yq openssl && \
     dnf install -yq dumb-init && \
     dnf update -yq vim-minimal && \
-    dnf install -yq vim && \
     dnf install -yq java-1.8.0-openjdk && \
     dnf install -y openssh-clients openssh-server && \
     dnf clean all && \
